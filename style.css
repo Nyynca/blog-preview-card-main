@@ -43,7 +43,13 @@ article section{
 }
 h1{
     font-size: 24.5px;
-    margin: 0px;
+    color: hsl(0, 0%, 7%);
+    padding: 10px 0px;
+    margin-top: -7px;
+}
+h1:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
 }
 #image{
     background-image: url(illustration-article.svg);
@@ -63,11 +69,6 @@ h1{
 }
 #learning p{
     padding: 5px 13px;
-}
-h1{
-    color: hsl(47, 88%, 63%);
-    padding: 10px 0px;
-    margin-top: -7px;
 }
 #light{
     color: hsl(0, 0%, 50%);
